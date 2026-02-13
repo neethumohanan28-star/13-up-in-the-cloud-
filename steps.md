@@ -7,7 +7,7 @@ b. Region :- Korea Central (vnet-koreacentral-1)
 a. OS:- Linux (Ubuntu 24.04 LTS) — Canonical server image
 b. Size/Tier: Standard B2as v2 (2 vCPUs, 8 GiB RAM)
 c. Why it is free-tier eligible?
-      The selected virtual machine configuration for this task, Standard B2as v2 (2 vCPUs and 8 GiB RAM), is not included in Microsoft Azure’s 12-month free-tier eligible offerings. Azure’s free tier typically allows only the B1s size (1 vCPU and 1 GiB RAM) for up to 750 hours per month for new users. But new accounts include credits that allow for higher-tier B-series (burstable) instances like the B2as v2 for testing and development within the trial period.
+      The selected virtual machine configuration for this task is Standard B2as v2 (2 vCPUs and 8 GiB RAM), which is not included in Microsoft Azure’s 12-month free-tier eligible offerings. Azure’s free tier typically allows only the B1s size (1 vCPU and 1 GiB RAM) for up to 750 hours per month for new users. But new accounts include credits that allow for higher-tier B-series (burstable) instances like the B2as v2 for testing and development within the trial period.
 
 Auth Method: SSH Public Key (RSA). I restricted local key permissions using chmod 400 on my Kali machine to secure the connection.
 
